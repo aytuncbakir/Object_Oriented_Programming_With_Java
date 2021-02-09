@@ -21,7 +21,11 @@ public class BankaMusterisi {
 		return sonBakiye;
 	}
 	
-	public void havaleEt() {
+	public void havaleEt(int havaleEdilecekMiktar, 
+			BankaMusterisi bm1,BankaMusterisi bm2  ) {
+		
+		bm1.bakiye = bm1.bakiye - havaleEdilecekMiktar;
+		bm2.bakiye = bm2.bakiye + havaleEdilecekMiktar;
 		
 	}
 	
