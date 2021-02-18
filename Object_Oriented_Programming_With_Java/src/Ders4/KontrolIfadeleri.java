@@ -63,19 +63,21 @@ public class KontrolIfadeleri {
 		}
 		
 		int sonuc =  topla(1,2);
-		System.out.println(sonuc);
+		//System.out.println(sonuc);
 		
-		System.out.println(topla(71,8));
+		//System.out.println(topla(71,8));
 		
-		System.out.println(topla(2,3));
+		//System.out.println(topla(2,3));
 		
 		yazdir(4) ;
 		yazdir(5) ;
-		System.out.println("akis buradan devam eder");
+		//System.out.println("akis buradan devam eder");
 		
-		kareCiz();
-		ucgenCiz();
-		tersUcgenCiz();
+		//kareCiz();
+		//ucgenCiz();
+		//tersUcgenCiz1(4);
+		eskenarUcgenCiz(5);
+	
 		
 		/*
 			  *
@@ -86,25 +88,31 @@ public class KontrolIfadeleri {
 		   */
 	}
 	
-	public static void tersUcgenCiz1() {
-		for(int i = 0; i<4;i++) {
-			
-			for(int j = 0; j<4;j++) {
-				System.out.print(" *");
+	
+	
+	public static void tersUcgenCiz1(int satir) {
+		for(int i = 1; i<=satir;i++) {
+			for(int j = 0; j<satir;j++) {
+				if(j < satir-i)
+					System.out.print("-");
+				else
+					System.out.print("*");
 			}
 			System.out.println();
 		}
 	}
 	
-	public static void eskenarUcgenCiz() {
-		for(int i = 0; i<4;i++) {
-			
-			for(int j = 0; j<4;j++) {
-				System.out.print(" *");
-			}
-			System.out.println();
-		}
+	public static void eskenarUcgenCiz(int satir) {
+	
+	     for(int i=1; i<=satir; i++){
+	         for(int j=0; j<satir-i; j++)
+	             System.out.print(" ");
+	         for(int j=0; j<(2*i-1); j++)
+	             System.out.print("*");
+	         System.out.println();
+	     }
 	}
+	
 	
 	public static void kareCiz() {
 		for(int i = 0; i<4;i++) {

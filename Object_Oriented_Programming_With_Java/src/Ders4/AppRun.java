@@ -1,10 +1,14 @@
 package Ders4;
 
+
+
 public class AppRun {
 
 	public static void main(String[] args) {
 		
+		
 		Ogrenci ogr = new Ogrenci();
+		
 		
 		ogr.adi = "Asaf";
 		ogr.no =123;

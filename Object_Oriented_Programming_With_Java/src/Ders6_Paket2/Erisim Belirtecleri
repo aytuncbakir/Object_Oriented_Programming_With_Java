@@ -1,0 +1,9 @@
+
+
+public  --- herkes erisebilir
+
+friendly  --- ayni paketteki siniflar erisir, farkli pakettekiler erisemez
+
+protected  --- private yapsak kimse erisemez, public yapsak herkes erisiyor.Cozum protected
+
+private  --- kimse erisemez

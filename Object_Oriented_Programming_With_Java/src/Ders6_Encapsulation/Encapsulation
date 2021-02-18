@@ -1,0 +1,6 @@
+Encapsulation:
+
+Sarmalama da denir. 
+Sinif attributelerini dis dunyaya kapar. 
+Sinif kendi metodlariyla bu attributeleri kullanima sunar.
+Bu sekilde sinif duzeyinde guvenlik saglanir.
