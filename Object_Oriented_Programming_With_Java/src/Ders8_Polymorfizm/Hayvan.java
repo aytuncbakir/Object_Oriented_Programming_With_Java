@@ -1,0 +1,27 @@
+package Ders8_Polymorfizm;
+
+public class Hayvan {
+	
+	private String isim;
+
+	public Hayvan(String isim) {
+		this.isim = isim;
+	}
+
+	public String getIsim() {
+		return isim;
+	}
+
+	public void setIsim(String isim) {
+		this.isim = isim;
+	}
+	
+	public String sesCikar() {
+		
+		return "Hayvan ses veriyor";
+	}
+	
+	
+	
+
+}

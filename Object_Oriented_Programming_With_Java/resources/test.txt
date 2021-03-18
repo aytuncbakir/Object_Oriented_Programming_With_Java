@@ -1,0 +1,2 @@
+Merhaba write to file\nMerhaba write to file 1
+Merhaba write to file 2
